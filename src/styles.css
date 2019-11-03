@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 3.6rem;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  padding: 0.3rem 1rem;
+}
