@@ -12,7 +12,7 @@ class CounterApp extends React.Component {
   render() {
     return (
       <div>
-        <h3>CounterApp</h3>
+        <br />
         <div style={{ display: "flex", justifyContent: "center" }}>
           <button onClick={this.decrementCount}>-</button>
           <h2>Count: {this.props.count}</h2>

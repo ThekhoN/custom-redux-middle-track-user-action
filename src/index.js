@@ -16,6 +16,7 @@ class App extends React.Component {
     this.props.updateUserTrackedAction("USER_TRACKED_ACTION:SCROLL");
   };
   componentDidMount() {
+    // custom events for tracking user actions
     document.addEventListener("click", this.userTrackActionClicked);
     window.addEventListener("scroll", this.userTrackActionScrolled);
   }
@@ -26,7 +27,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Test Custom Redux Middleware</h1>
+        <h2>Custom Redux Middleware</h2>
         <CounterApp />
       </div>
     );
